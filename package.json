@@ -1,0 +1,50 @@
+{
+  "name": "supermind",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:feedback": "node scripts/openTestPage.js",
+    "test:voice-clone": "node backend/tests/voiceCloneTest.js",
+    "test:voice-upload": "node backend/tests/voiceCloneUploadTest.js",
+    "test:cosyvoice-api": "node scripts/testCosyVoiceApi.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@vueuse/core": "^13.1.0",
+    "axios": "^1.9.0",
+    "chalk": "^5.4.1",
+    "chart.js": "^4.4.9",
+    "crypto-js": "^4.2.0",
+    "element-plus": "^2.9.8",
+    "ora": "^8.2.0",
+    "pinia": "^3.0.2",
+    "uuid": "^11.1.0",
+    "vue": "^3.4.29",
+    "vue-chartjs": "^5.3.2",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.21",
+    "form-data": "^4.0.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "vite": "^5.3.1"
+  },
+  "main": "vite.config.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

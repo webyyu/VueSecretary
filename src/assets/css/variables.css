@@ -1,0 +1,47 @@
+:root {
+  /* Main colors */
+  --app-primary: #007bff;
+  --app-primary-dark: #0069d9;
+  --app-primary-light: #e6f2ff;
+  --app-secondary: #6c757d;
+  --app-success: #28a745;
+  --app-danger: #dc3545;
+  --app-warning: #ffc107;
+  --app-info: #17a2b8;
+  
+  /* Gray scale */
+  --app-dark: #343a40;
+  --app-gray-dark: #495057;
+  --app-gray: #6c757d;
+  --app-gray-light: #adb5bd;
+  --app-light-gray: #ced4da;
+  --app-light: #f8f9fa;
+  --app-border: #e5e7eb;
+  --app-background: #f9f9fb;
+  
+  /* Shadows */
+  --app-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --app-shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.1);
+  
+  /* Layout */
+  --content-padding: 16px;
+  --nav-height: 56px;
+  
+  /* Animation */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --app-background: #121212;
+    --app-dark: #e1e1e1;
+    --app-gray-dark: #d1d1d1;
+    --app-gray: #a1a1a1;
+    --app-light-gray: #595959;
+    --app-light: #292929;
+    --app-border: #323232;
+  }
+} 
